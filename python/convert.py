@@ -1,0 +1,6 @@
+f = open('data/data_raw/financial_loan.csv', encoding='utf-8-sig')
+lines = f.readlines()
+print('Total rows:', len(lines))
+print('Headers:', lines[0])
+print('First data row:', lines[1])
+f.close()
